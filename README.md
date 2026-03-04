@@ -1,12 +1,13 @@
 # 🎫 Tickets Management API
 
-![CI](https://github.com/chkechad/tickets_management_rag/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/chkechad/tickets_management_langchain/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.12-blue.svg)
-![License](https://img.shields.io/github/license/chkechad/tickets_management_rag)
-![Last Commit](https://img.shields.io/github/last-commit/chkechad/tickets_management_rag)
-![Coverage](https://codecov.io/gh/chkechad/tickets_management_rag/branch/main/graph/badge.svg)
+![License](https://img.shields.io/github/license/chkechad/tickets_management_langchain)
+![Last Commit](https://img.shields.io/github/last-commit/chkechad/tickets_management_langchain)
+![Coverage](https://codecov.io/gh/chkechad/tickets_management_langchain/branch/main/graph/badge.svg)
 
-A REST ticket management API built with FastAPI, SQLAlchemy, and SQLite.
+A REST ticket management API built with FastAPI, SQLAlchemy, and SQLite, and Langchain for chaining LLM models for
+ticket resolution.
 
 ## 📋 Features
 
@@ -74,7 +75,7 @@ app/
 ### Clone the project
 
 ```shell
-git clone https://github.com/chkechad/tickets_management_rag
+git clone https://github.com/chkechad/tickets_management_langchain
 ```
 
 ### Install dependencies

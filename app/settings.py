@@ -40,6 +40,15 @@ class TestConfig(GlobalConfig):
     model_config = SettingsConfigDict(env_prefix="TEST_")
 
 
+class LLMConfig(GlobalConfig):
+    """LLM‑specific configuration."""
+
+    LLM_MODEL: str = "gpt-oss:20b"
+    LLM_TEMPERATURE: float = 0.0
+
+    model_config = SettingsConfigDict(env_prefix="LLM_")
+
+
 @lru_cache
 def get_config(env_state: str) -> GlobalConfig:
     """Instantiate core based on the environment."""

@@ -1,12 +1,19 @@
 [project]
-name = "tickets-management-rag"
+name = "tickets-management-langchain"
 version = "0.1.0"
-description = "REST API for ticket management built with FastAPI and SQLAlchemy"
+description = "REST API for ticket management built with FastAPI and SQLAlchemy and LangChain."
+authors = [{name = "ckechad", email = "me@ckechad.dev"},]
+license = "MIT License"
+license_files =  ["LICENSE"]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "aiosqlite>=0.22.1",
     "fastapi[all]>=0.135.1",
+    "langchain>=1.2.10",
+    "langchain-ollama>=1.0.1",
+    "langgraph>=1.0.10",
+    "langsmith>=0.7.11",
     "pydantic>=2.12.5",
     "pydantic-settings>=2.13.1",
     "sqlalchemy[asyncio]>=2.0.48",
